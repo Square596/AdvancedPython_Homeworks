@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artme Pshenitsyn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="icon" href="../static/avatar.jpg">
+  </head>
+
+  <body>
+
+    <div class="topnav">
+      <a class="active" href="{{ url_for('main') }}">Artem Pshenitsyn</a>
+      <a href="{{ url_for('cv') }}">CV</a>
+      <a href="{{ url_for('contacts') }}">Contacts</a>
+    </div>
+
+    <div style="padding: 10px">
+      <p class="person">Artem Pshenitsyn Sergeevich</p>
+      <img src="../static/avatar.jpg" width="200">
+      <b>3-year student of Phystech-School of Biological and Medicine Physics of MIPT </b>
+    </div>
+
+  </body>
+</html>

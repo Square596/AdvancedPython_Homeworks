@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+        <link rel="icon" href="../static/avatar.jpg">
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a href="{{ url_for('main') }}">Artem Pshenitsyn</a>
+            <a href="{{ url_for('cv') }}">CV</a>
+            <a class="active" href="{{ url_for('contacts') }}">Contacts</a>
+        </div>
+
+        <div style="padding:30px">
+            <a href="https://vk.com/vsego_ho_ro_she_go">Вконтакте</a><br><br>
+            <a href="https://t.me/pshenitsyn_artem">Telegram</a>
+        </div>
+
+    </body>
+</html>
