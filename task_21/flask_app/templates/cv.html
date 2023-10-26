@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+        <link rel="icon" href="../static/avatar.jpg">
+    </head>
+
+    <body>
+            
+        <div class="topnav">
+            <a href="{{ url_for('main') }}">Artem Pshenitsyn</a>
+            <a class="active" href="{{ url_for('cv') }}">CV</a>
+            <a href="{{ url_for('contacts') }}">Contacts</a>
+        </div>
+
+        <div style="padding-left: 30px">
+            <h2>Любитель кроликов</h2>
+            <h2>Хобби: Графический дизай в Adobe Photoshop</h2>
+        </div>
+
+    </body>
+</html>
