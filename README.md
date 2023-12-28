@@ -1,1 +1,1 @@
-MIPT 3rd year Python Advanced homework assignments
+MIPT 3rd year AdvancedPython homeworks
